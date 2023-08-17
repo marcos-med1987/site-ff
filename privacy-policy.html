@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>F&F-Bearing</title>
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/login.css">
+  <link rel="stylesheet" href="CSS/responsive.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="shortcut icon" href="IMG/favicon/android-chrome-192x192.png" type="image/x-icon">
+</head>
+<body>
+
+<!--HEADER-->
+<header class="header">
+  <div class="header-container">
+
+    <!-- LOGO -->
+    <a href="index.html"><img class="logo" src="IMG/logo/logo2.png" alt=""></a>
+
+    <!--MENU hamburger-->
+    <div class="menu-burger">
+      <button onclick="menuShow()"> <img src="IMG/icons/menu-burguer/menu-black.svg" alt=""></button>
+    </div>
+
+    <!--SEARCH-->
+    <div class="search-btn">
+      <input type="text" placeholder="Search..">
+      <button><i class="fa fa-search"></i></button>
+    </div>
+    <nav class="nav-menu">
+      <ul>
+        <li class="icon"><a href="help.html"><img src="IMG/icons/help.png"><span>Help</span></a></li>
+        <li class="icon"><a href="#" onclick="document.getElementById('id01').style.display='block'"><img class="img-sign" src="IMG/icons/sign.png"><span>Sign in</span></a></li>
+        <li class="icon"><a href="cart.html"><img src="IMG/icons/cart-icon.png"><span>Cart</span></a></li>          
+      </ul>
+
+      <!--LANGUAGES-->
+      <div class="language">
+        <div class="language-selected" onclick="myFunction()">
+          EN
+        </div>
+        <ul id="myDIV">
+          <li><a href="#" class="en">English</a></li>
+          <li><a href="#" class="br">Português</a></li>
+          <li><a href="#" class="es">Español</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<!-- SIGN IN -->
+<!-- The Modal (contains the Sign Up form) -->
+<div id="id01" class="modal">
+<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">X</span>
+<form class="modal-content" action="/action_page.php">
+  <div class="container">
+    <h1>Sign Up</h1>
+    <p>Please fill in this form to create an account.</p>
+    <hr>
+    <label for="email"><b>Email</b></label>
+    <input class="login-input" type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input class="login-input" type="password" placeholder="Enter Password" name="psw" required>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input class="login-input" type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+    <label>
+      <input class="login-input" type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    </label>
+
+    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+    <div class="clearfix">
+      <button class="btn-login" type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <button class="btn-login" type="submit" class="signup">Sign Up</button>
+    </div>
+  </div>
+</form>
+</div> 
+
+
+<!-- Privacy Policy -->
+<section class="pravacy-policy section-1">
+  <h1>Privacy Policy</h1>
+  <h2>F&F PRIVACY SUMMARY</h2>
+  <p>Our Privacy Policy applies to our websites and brands, including www.grainger.com, www.zoro.com, www.imperialsupplies.com, jobs.grainger.com, and any other website, mobile application, or other online service that links to this Policy (collectively, our “Service”). You can read the full version of the Privacy Policy and find a summary below.</p>
+  <h2>HOW DO WE USE PERSONAL INFORMATION AND HOW IS IT COLLECTED?</h2>
+  <p>We collect many categories of personal information. The categories we collect may include: Contact and profile information; comments and suggestions, chat and opinions; Payment and transaction information; Location information; Information provided by social networks; Information provided by third parties; Information about fraudulent or criminal activity related to your account.</p>
+  <p>This personal information is collected from you in many ways, which are described in the full Policy. A few examples include:</p>
+  <p><strong>When You Submit Personal Information To Us.</strong> We collect personal information about you when you register for an account, make a purchase, sign up for marketing communications, or send it to us</p>
+  <p>When You Use Our Service. We collect some personal information about you automatically as you use our Service and visit our branches.</p>
+  <p>From Our Third-Party Partners. We may also collect personal information from our third-party partners who help us to provide the Service or from other third party partners to supplement or enhance our information.</p>
+
+  <p>We may link or combine information that we collect about you from various sources to help ensure a consistent user experience regardless of how you interact with us – online, in-branch, on mobile, or on social media. <br>
+
+    We use personal information to provide our Service; to fulfill your requests, process transactions and contact you; to send you personalized advertising and promotional content and materials; to analyze and improve our Service and our business; and for other reasons described more fully in our Privacy Policy.
+    
+    To Learn More about the information we collect and how we use it, or see our full Policy.</p>
+
+    <h2>HOW DO WE SHARE INFORMATION?</h2>
+    <p>We share information in a variety of circumstances to provide our services, respond to your requests, improve your experience, and otherwise conduct our business. For example, we may share information:</p>
+    <p>With our affiliates and companies in the W.W. Grainger family of companies, who may use your information in the same way as we can under this Privacy Policy</p>
+    <p>With third parties to fulfill your request, such as when you choose to share your activities on Grainger with your friends and contacts, or when you engage in promotional activities we provide with third party partners</p>
+    <p>With select third parties, so that they can provide you with information and marketing messages about products and services you may enjoy
+    </p>
+    <p>To Learn More about these and other ways in which we may share your personal information, please see our full Policy.
+    </p>
+    <h2>HOW DO WE SHARE INFORMATION?</h2>
+    <p>We share information in a variety of circumstances to provide our services, respond to your requests, improve your experience, and otherwise conduct our business. For example, we may share information:</p>
+    <p>With our affiliates and companies in the W.W. Grainger family of companies, who may use your information in the same way as we can under this Privacy Policy</p>
+    <p>With third parties to fulfill your request, such as when you choose to share your activities on Grainger with your friends and contacts, or when you engage in promotional activities we provide with third party partners</p>
+    <p>With select third parties, so that they can provide you with information and marketing messages about products and services you may enjoy</p>
+
+    <p>To Learn More about these and other ways in which we may share your personal information, please see our full Policy.</p>
+    <h2>WHAT CHOICES DO YOU HAVE?</h2>
+    <p>We want you to understand your choices regarding how we may process your personal information. Depending on how you use the Service, these choices may include the following:</p>
+    <p><strong>Interest-based advertising.</strong> Visit the Network Advertising Initiative’s online resources, and/or the DAA’s resources to learn about how you may opt-out of certain interest-based advertising. Some of these opt-outs may not be effective unless your browser is set to accept cookies. Furthermore, if you use a different device, change browsers or delete cookies, you may need to perform the opt-out task again</p>
+    <p><strong>Cookies Settings and Preferences.</strong> You may disable cookies and other tracking technologies through the settings in your browser.</p>
+    <p><strong>E-mail Settings and Preferences.</strong>If you no longer want to receive marketing e-mails from us, you may choose to unsubscribe at any time. You can also set your e-mail options to prevent the automatic downloading of images that may contain tracking technologies.</p>
+    <p>Please be sure to check the full Privacy Policy for more information about your choices.</p>
+    <h2>1. WHAT INFORMATION DO WE COLLECT ABOUT YOU AND HOW DO WE USE IT?</h2>
+    <p>We collect certain information automatically when you use the Service, such as information about the pages you look at on our Service, the actions you take on our Service or the device you use to access our Service.</p>
+    <p>We may also collect information about you from third parties.
+      For example, the types of personal information we collect may include:</p>
+      <ul>
+        <li>Comments, chat and opinions</li>
+        <li>Payment and transaction information</li>
+        <li>Location information</li>
+        <li>Information provided by social networks</li>
+        <li>Information provided by third parties</li>
+        <li>Information about fraudulent or criminal activity related to your account</li>
+      </ul>
+    
+
+    
+</section>
+
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="sign">
+      <span>Sign Up & Save</span>
+      <p>Save 10% on your next order and get special offers when you sign up for F&F emails! </p>    
+    <div id="input_group">
+      <input type="email" id="email">
+      <button>Sign Up</button>
+    </div>
+    <span>Follow Us</span>
+    <div class="social_media">      
+      <div class="social">
+        <a href="#">
+          <i class="fa-brands fa-instagram" ></i>
+        </a>
+      </div>
+      <div class="social">
+        <a href="#">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+      </div>
+      <div class="social">
+        <a href="#">
+          <i class="fa-brands fa-facebook" ></i>
+        </a>
+      </div>
+    </div>
+   </div>
+   <div class="boxs-container">
+    <div class="boxs">
+      <h2>Information</h2>
+      <ul>
+        <li><a href="about-us.html">About Us</a></li>
+        <li><a href="accessibility.html">Accessibility</a></li>
+        <li><a href="#">Shipping</a></li>
+      </ul>
+    </div>
+    <div class="boxs">
+      <h2>Shopping</h2>
+      <ul>
+        <li><a href="#">Brands </a></li>
+        <li><a href="#">My Account</a></li>
+        <li><a href="#">Payments</a></li>
+        <li><a href="#">Promo Codes</a></li>
+        <li><a href="#">Sitemap</a></li>
+        <li><a href="#">Track My Order</a></li>
+      </ul>
+    </div>
+    <div class="boxs">
+      <h2>Services</h2>
+      <ul>
+        <li><a href="#">Customer Service</a></li>
+        <li><a href="#">Contact Us </a></li>
+        <li><a href="#">FAQ's </a></li>
+        <li><a href="#">Net 30 Terms  </a></li>
+        <li><a href="#">Sell on F&F</a></li>
+      </ul>
+    </div>
+    <div class="contact-us">
+      <h2>Contact Us</h2>
+      <p>Customer Services From Real People</p>
+      <p>Phone: (419)524.1700</p>
+      <p>Fax: (419)524.1700</p>
+      <p>Email: rcarmona@ffbearingco.com</p>
+    </div>
+  </div>
+  </footer>
+  <div class="footer">
+    <div class="copy">
+      <p>&#169 2023 All Rights Reserved</p>
+      <li></li>
+      <a href="#">Terms & Conditions </a>
+      <li></li>
+      <a href="#">Privacy Policy</a>
+      <li></li>
+      <a href="#">Do Not Sell My Personal Information</a>
+    </div>
+    <a href="#"><img class="logo" src="IMG/logo/Logo-White.png"></a>
+  </div>
+
+
+<script src="/JS/menu.js"></script>
+<script src="JS/language.js"></script>
+<Script src="sign.js"></Script>
+<script src="https://kit.fontawesome.com/469a6a24fb.js" crossorigin="anonymous"></script>
+</body>
+</html>
