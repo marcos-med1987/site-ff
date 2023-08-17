@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+:root{
+  --color-neutral-0: #0e0c0c;
+  --color-neutral-10: #171717;
+  --color-neutral-30: #a8a29e;
+  --color-neutral-40: #f5f5f5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.section-1{
+  margin: 60px 220px 60px 220px;
+}
+
+.section-2{
+  padding: 30px 10px 30px 30px
+}
+
+/*global tags*/
+
+h1 {
+  font-size: 35px;
+  font-weight: 700;
+  color: rgb(34, 34, 34);
+}
+
+h2{
+  font-size: 22px;
+  font-weight: 550;
+  color: rgb(34, 34, 34);
+}
+
+span {
+  font-size: .8rem;
+  color: rgb(34, 34, 34)
+}
+
+h6 {
+  font-size: 1.1rem;
+  color: rgb(24, 24, 49);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #2071a7;
+}
+
+/* ----------- */
+
+/* About us */
+.mission{
+  width: 650px;
+}
+.mission p{
+  margin: 30px 30px 30px 0;
+}
+
+.story{
+  display: flex;
+  flex-direction: column;
+  width: 650px;
+  margin-top: 50px;
+}
+
+.story p{
+  margin: 30px 30px 30px 0;
+}
+
+.story img {
+  width: 600px;
+  height: 400px;
+  margin: 10px 10px 10px 0;
+}
+
+.story .story-pictures {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+/* Accessibility */
+.container-accessibility .p-web{
+  margin-top: 20px;
+  margin-bottom: -25px;
+  margin-left: 15px;  
+  font-size: 29px;
+  font-weight: 600;
+}
+.container-accessibility p1{
+  font-size: 25px;
+}
+
+.container-accessibility{
+  width: 60%;
+}
+
+.box-accessibility{
+  width: 90%;
+  background-color: #f5f5f5;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  float: left;
+  margin: 40px 20px;
+}
+
+.box-accessibility h2{
+  padding: 20px;
+}
+
+.box-accessibility p{
+  font-size: 15px;
+  color: rgb(49, 49, 49);
+  padding: 6px 400px 20px 20px;
+  text-align: justify;
+  word-wrap: break-word;
+  margin-left: 15px;
+}
+
+#btn-accessibility{
+  font-size: 15px;
+  color: #fff!important;
+  background-color: #616161!important;
+  border: none;
+  padding: 10px 16px;
+  cursor: pointer;
+  margin: 20px ;
+  float: right;
+}
+
+#btn-accessibility:hover{
+  color: #000!important;
+  background-color: #ccc7c7!important;
+}
+
+#invisible-text{
+  display: none;
+}
+
+hr {
+  margin: 0 -20px;
+  width: 96%;
+}
+
+/* Return Policy */
+
+.return-policy{
+  width: 60%;
+}
+.return-policy p{
+  margin: 30px;
+  width: 60%;
+}
+.return-policy h2{
+  font-size: 28px;
+}

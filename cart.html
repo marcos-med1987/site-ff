@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>F&F-Bearing</title>
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/login.css">
+  <link rel="stylesheet" href="CSS/responsive.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="shortcut icon" href="IMG/favicon/android-chrome-192x192.png" type="image/x-icon">
+</head>
+<body>
+  <!--HEADER-->
+  <header class="header">
+    <div class="header-container">
+
+      <!-- LOGO -->
+      <a href="#"><img class="logo" src="IMG/logo/logo.png" alt=""></a>
+
+      <!--MENU HAMBURGUER-->
+      <div class="menu-burguer">
+        <a href="#"><img src="IMG/icons/menu-hamburguer2.svg" alt=""></a>
+        <span>Menu</span>  
+      </div>
+
+      <!--SEARCH-->
+      <div class="search-btn">
+        <input type="text" placeholder="Search..">
+        <button><i class="fa fa-search"></i></button>
+      </div>
+      <nav class="nav-menu">
+        <ul>
+          <li class="icon"><a href="#"><img src="IMG/icons/help.png"><span>Help</span></a></li>
+          <li class="icon"><a href="#" onclick="document.getElementById('id01').style.display='block'"><img class="img-sign" src="IMG/icons/sign.png"><span>Sign in</span></a></li>
+          <li class="icon"><a href="#"><img src="IMG/icons/cart-icon.png"><span>Cart</span></a></li>          
+        </ul>
+
+        <!--LANGUAGES-->
+        <div class="language">
+          <div class="language-selected" onclick="myFunction()">
+            EN
+          </div>
+          <ul id="myDIV">
+            <li><a href="#" class="en">English</a></li>
+            <li><a href="#" class="br">Português</a></li>
+            <li><a href="#" class="es">Español</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Cart -->
+  <section class="buy-cart-container">
+      <div class="item-container">
+        <div class="shopping-cart-title">
+          <h2>Shopping Cart (1 Item)</h2>
+        </div>
+        <div class="item-details">
+          <div class="product-description-container">
+            <div>
+              <img src="IMG/products/mitsubshi.webp" alt="">
+            </div>
+            <div class="product-description-details">
+              <a>Hi-Power II PowerBand V-Belts,3/A49</a>
+              <p>f&f#: G7873759</p>
+              <p>Ships in 7 business days</p>
+            </div>
+          </div>
+          <div class="price-count-remove">
+            <p>US$ 45,13</p>
+            <div>
+              <button><i class="fa-solid fa-plus"></i></button>
+              <input type="text" placeholder="">
+              <button><i class="fa-solid fa-minus"></i></button>
+            </div>
+            <div class="span-remove"><span>REMOVE</span></div>
+          </div>          
+        </div>
+        <div class="dont-see-text"><p><strong>Don't see the item(s) you are looking for?</strong><br>
+          <a>Sign In</a> to see items you may have added to your cart while signed in on previous visits</p>
+        </div>
+      </div>
+
+      <div class="order-summary-container">
+        <div class="shopping-cart-title"><h2>Order Summary</h2></div>
+          <div class="order-summary">
+            <span>Subtotal (1 Item) </span>
+            <span>U$$ 45,13</span>
+          </div>
+          <div class="order-summary">
+            <p>Shipping</p>
+            <p>US$ 5,00</p>
+          </div>
+          <div class="order-summary">
+            <p>Tax</p>
+            <p>US$ 0,00</p>
+          </div>
+          <div class="order-summary">
+            <p>Final Shipping & Tax calculated in checkout.</p>
+          </div>
+          <div class="order-total-final">
+            <p>Total</p>
+            <p>US$ 50,13</p>
+          </div>
+        <!-- </div> -->
+        <button class="sing-in-checkout-btn">Sign in and Checkout</button>
+        <button class="checkout-guest-btn">Check as Guest</button>
+      </div> 
+    <!-- </div>   -->
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="sign">
+      <span>Sign Up & Save</span>
+      <p>Save 10% on your next order and get special offers when you sign up for F&F emails! </p>    
+    <div id="input_group">
+      <input type="email" id="email">
+      <button>Sign Up</button>
+    </div>
+    <span>Follow Us</span>
+    <div class="social_media">      
+      <div class="social">
+        <a href="#">
+          <i class="fa-brands fa-instagram" ></i>
+        </a>
+      </div>
+      <div class="social">
+        <a href="#">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+      </div>
+      <div class="social">
+        <a href="#">
+          <i class="fa-brands fa-facebook" ></i>
+        </a>
+      </div>
+    </div>
+   </div>
+   <div class="boxs-container">
+    <div class="boxs">
+      <h2>Information</h2>
+      <ul>
+        <li><a href="http://127.0.0.1:5500/f-fbearings-main/information/about-us.html">About Us</a></li>
+        <li><a href="#">Accessibility</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">DEI</a></li>
+        <li><a href="#">Giving Back</a></li>
+        <li><a href="#">Shipping </a></li>
+      </ul>
+    </div>
+    <div class="boxs">
+      <h2>Shopping</h2>
+      <ul>
+        <li><a href="#">Brands </a></li>
+        <li><a href="#">My Account</a></li>
+        <li><a href="#">Payments</a></li>
+        <li><a href="#">Promo Codes</a></li>
+        <li><a href="#">Sitemap</a></li>
+        <li><a href="#">Track My Order</a></li>
+      </ul>
+    </div>
+    <div class="boxs">
+      <h2>Services</h2>
+      <ul>
+        <li><a href="#">Customer Service</a></li>
+        <li><a href="#">Contact Us </a></li>
+        <li><a href="#">FAQs </a></li>
+        <li><a href="#">Net 30 Terms  </a></li>
+        <li><a href="#">Sell on F&F</a></li>
+      </ul>
+    </div>
+    <div class="contact-us">
+      <h2>Contact Us</h2>
+      <p>Customer Services From Real People</p>
+      <p>Phone: (419)524.1700</p>
+      <p>Fax: (419)524.1700</p>
+      <p>Email: rcarmona@ffbearingco.com</p>
+    </div>
+  </div>
+  </footer>
+  <div class="footer">
+    <div class="copy">
+      <p>&#169 2023 All Rights Reserved</p>
+      <li></li>
+      <a href="#">Terms & Conditions </a>
+      <li></li>
+      <a href="#">Privacy Policy</a>
+      <li></li>
+      <a href="#">Do Not Sell My Personal Information</a>
+    </div>
+    <a href="#"><img class="logo" src="IMG/logo/Logo-White.png"></a>
+  </div>
+
+
+<script src="/JS/menu.js"></script>
+<script src="JS/language.js"></script>
+<Script src="sign.js"></Script>
+<script src="https://kit.fontawesome.com/469a6a24fb.js" crossorigin="anonymous"></script>
+
+</body>
+</html>

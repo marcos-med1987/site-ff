@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+:root{
+  --color-neutral-0: #0e0c0c;
+  --color-neutral-10: #171717;
+  --color-neutral-30: #a8a29e;
+  --color-neutral-40: #f5f5f5;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.section-p1{
+  padding: 40px 80px;
+}
+
+.section-1{
+  margin: 0 50px 0 50px; 
+}
+
+/*global tags*/
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: rgb(34, 34, 34);
+}
+
+span {
+  font-size: .8rem;
+  color: rgb(34, 34, 34)
+}
+
+h6 {
+  font-size: 1.1rem;
+  color: rgb(24, 24, 49);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Contact */
+.contact-details{
+  font-size: 20px;
+  gap: 10px;
+  margin: 60px 30px 0px 82px;
+}
+
+.form h2, .form span{
+ margin-bottom: 15px;
+ color:rgb(34, 34, 34);
+}
+
+.form{
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  padding: 50px 50px;
+  border: 1px solid #e1e1e1;
+}
+
+.form span{
+ margin-bottom: 20px;
+ font-family: roboto, sans-serif;
+ font-size: medium;
+}
+
+.form form{
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form form input,
+.form form textarea{
+  width: 90%;
+  padding: 18px 15px;
+  outline: none;
+  margin-bottom: 20px;
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+  font-family: roboto, sans-serif;
+  font-size: 16px;
+}
+.form form div{
+ display: flex;
+ flex-direction: row;
+ justify-content: flex-end;
+ width: 90%;
+}
+
+.form form button{
+  background-color: #FF7200;
+  color: rgb(255, 255, 255);
+  padding: 17px 30px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 700;
+  
+}
+.form form button:hover{
+  background-color:  #e86800;
+}
+
+.contact{
+  width: 550px;
+  word-wrap: break-word;
+}
+.contact h2{
+  margin-bottom: 18px;
+}
+
+.contact-details-talk{
+  margin-bottom: 20px;
+  color: #0e0c0c;
+}
+
+.contact span{
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 2px;
+  color:rgb(53, 53, 53)
+}
+.contact p{
+  font-size: 14px;
+  margin-top: 8px;
+  color: #0e0c0c;
+}
+
+.map {
+  width: 100%;
+  height: 400px;
+  margin-top: 30px;
+}
+
+.map iframe {
+  width: 550px;
+  height: 300px;
+  border: none;
+}
